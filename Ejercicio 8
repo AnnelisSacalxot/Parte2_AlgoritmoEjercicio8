@@ -1,0 +1,18 @@
+8. Diseñar un algoritmo que genere números al azar múltiplos de 5, mientras el usuario no ingresa la opción ‘S’ (Salir)
+
+Algoritmo Múltiplo_de_5
+	Repetir
+	Definir num, opcionElegir Como Entero
+	Escribir "Opción a elegir"
+	Escribir "1. Generar número al azar múltiples de 5"
+	Escribir "2. Salir"
+	Si opcionElegir == 1 Entonces
+		Si num mod 5 == 0 Entonces
+			Escribir "El número es:", num
+		FinSi
+	SiNo 
+		Escribir "Gracias por visitar nuestro programa"
+	FinSi	
+Hasta Que opcionElegir = 2
+FinAlgoritmo
+
